@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", serif;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px  5px 0px;
+    border-bottom: 1px gray solid;
+}
+header {
+    display: flex;
+}
+
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 40px;
+    margin-right: 10px;
+   
+    
+}
+
+.logo {
+    width: 100px;
+}
+
+.post .header {
+    display: flex;
+    justify-content: start;
+    margin: 30px 10px 15px 10px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.location{
+    font-weight: 500;
+}
+
+.post .avatar {
+    width: 32px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+
+.post .img {
+    width: 100%;
+}
+
+.icon{
+    width: 23px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+
+.likes{
+    font-weight: 700;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.user-name{
+    font-weight: 700;
+   
+}
+
+.comments{
+     margin-top: 4px;
+    margin-left: 10px;
+}
+
+.heart:acconstive{
+    background-color: blueviolet;
+}
+
+.heart:focus{
+    background-color: blueviolet;
+}
+
+.heart:hover{
+    transform: scale(1.2); 
+    filter: brightness(1.5); 
+    cursor: pointer; 
+}
